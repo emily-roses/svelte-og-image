@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/eltigerchino/svelte-og-image.git"
+		"url": "git+https://github.com/emily-roses/svelte-og-image.git"
 	},
 	"scripts": {
 		"dev": "vite dev",
@@ -87,11 +87,5 @@
 		"@vercel/og",
 		"satori",
 		"satori-html"
-	],
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild"
-		]
-	},
-	"packageManager": "pnpm@10.14.0"
+	]
 }
