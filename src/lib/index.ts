@@ -29,7 +29,7 @@ export class ImageResponse<TComponent extends Component<any>> extends Response {
 			headers?: Record<string, string>;
 		}
 	) {
-		if (DEV && !component.toString().includes('$$payload.css.add($$css);')) {
+		if (DEV && !component.toString().includes('css.add($$css);')) {
 			throw new Error(
 				'Missing `<svelte:options css="injected" />` in the component. The option must be set to inject CSS into the image response.'
 			);
